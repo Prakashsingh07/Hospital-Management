@@ -88,6 +88,7 @@ const Departments = () => {
           })}
         </Carousel>
       </div>
+     
     </>
   );
 };

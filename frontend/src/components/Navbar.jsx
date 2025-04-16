@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
-            <Link to={"/"} onClick={() => setShow(!show)}>
+            <Link to={"/home"} onClick={() => setShow(!show)}>
               Home
             </Link>
             <Link to={"/appointment"} onClick={() => setShow(!show)}>
